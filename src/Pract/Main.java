@@ -11,7 +11,8 @@ public class Main {
         HaM hobj = new HaM();
         System.out.println("Ingrese las horas: ");
         hm= Float.parseFloat(br.readLine());
-        System.Out.println
+        System.out.println("Lass horas ingresadas fueron: "+hobj.AsignarDatos();)
+        System.Out.println("Las horas en minutos son: "+hobj.);
 
 
 
