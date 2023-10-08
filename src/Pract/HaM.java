@@ -2,12 +2,15 @@ package Pract;
 import java.io.*;
 public class HaM {
     private float horas;
-public void AsignarDatos(float h)
+public void AsignarDatos(float h) {
     horas = h;
-public CalcularMinutos ()
+}
+public float CalcularMinutos() {
     float minutos;
-    minutos = horas/60
+    minutos = horas * 0;
     return minutos;
-public DevolverHoras()
+}
+public float DevolverHoras() {
     return horas;
+}
 }
